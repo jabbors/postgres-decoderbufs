@@ -1,0 +1,12 @@
+Source: postgresql-11-decoderbufs
+Maintainer: Johan Abbors <jabbors@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.1.4
+Section: utils
+
+Package: postgresql-11-decoderbufs
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}  
+Description: a postgres output plugin
+ A PostgreSQL logical decoder output plugin to deliver data as Protocol Buffers, adapted for Debezium

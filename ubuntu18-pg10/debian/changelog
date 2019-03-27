@@ -1,0 +1,5 @@
+postgresql-10-decoderbufs (0.9.3) bionic; urgency=medium
+
+  * Initial release.
+
+ -- Johan Abbors <jabbors@gmail.com>  Tue, 26 Mar 2019 10:58:10 +0000
