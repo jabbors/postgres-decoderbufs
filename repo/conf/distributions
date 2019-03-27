@@ -1,0 +1,7 @@
+Origin: jabbors.github.io/postgres-decoderbufs
+Label: jabbors.github.io/postgres-decoderbufs
+Codename: bionic
+Architectures: amd64
+Components: main
+Description: Repository for postgres-decoderbufs packages
+SignWith: A037B18F
