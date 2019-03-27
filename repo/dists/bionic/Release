@@ -1,0 +1,19 @@
+Origin: jabbors.github.io/postgres-decoderbufs
+Label: jabbors.github.io/postgres-decoderbufs
+Codename: bionic
+Date: Wed, 27 Mar 2019 12:30:04 UTC
+Architectures: amd64
+Components: main
+Description: Repository for postgres-decoderbufs packages
+MD5Sum:
+ 421ac2cf8f83bb46f13f2290898d9d92 1299 main/binary-amd64/Packages
+ 2372ace7f888ba954412bbdd5f864c4e 568 main/binary-amd64/Packages.gz
+ f75d4f98daf97953f96a20576e7535ed 187 main/binary-amd64/Release
+SHA1:
+ ce61483cca02235a0b606296117019991157042d 1299 main/binary-amd64/Packages
+ 47542326bbe6e340f88384e773abd1392607f5f1 568 main/binary-amd64/Packages.gz
+ 90503f966c2aa287a193b18a47ce03f0e8e1e097 187 main/binary-amd64/Release
+SHA256:
+ fc09059d5adfdf4004391e6214f1afa10272b1d24979b7fd1757bcd53cba8296 1299 main/binary-amd64/Packages
+ cc93f0645d0c16488bf40ffd1daeda19f08bc81d155ba2cc4f10e5c7a0f985b7 568 main/binary-amd64/Packages.gz
+ 9232b4012a3c5d0519fcf837c193a5559a8a30e5953f86387c3a765e1fe88359 187 main/binary-amd64/Release

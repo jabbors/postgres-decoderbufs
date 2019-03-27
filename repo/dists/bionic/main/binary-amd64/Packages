@@ -1,0 +1,32 @@
+Package: postgresql-10-decoderbufs
+Version: 0.9.3
+Architecture: amd64
+Maintainer: Johan Abbors <jabbors@gmail.com>
+Installed-Size: 47
+Depends: libc6 (>= 2.14), liblwgeom-2.4-0 (>= 2.0.0), libprotobuf-c1 (>= 1.0.1)
+Priority: extra
+Section: utils
+Filename: pool/main/p/postgresql-10-decoderbufs/postgresql-10-decoderbufs_0.9.3_amd64.deb
+Size: 11176
+SHA256: 219d2d6158f33ff351dd3ac4b8bdda5e854a645c2dd3f019554dcc45081560f9
+SHA1: ae300f8c7b843ad2bc1657b3d8d5c9a6fb187267
+MD5sum: fdd77b5d3343ed81ae79d3a5b7ae6cda
+Description: a postgres output plugin
+ A PostgreSQL logical decoder output plugin to deliver data as Protocol Buffers, adapted for Debezium
+
+Package: postgresql-11-decoderbufs
+Version: 0.9.3
+Architecture: amd64
+Maintainer: Johan Abbors <jabbors@gmail.com>
+Installed-Size: 102
+Depends: libc6 (>= 2.14), liblwgeom-2.4-0 (>= 2.0.0), libprotobuf-c1 (>= 1.0.1)
+Priority: extra
+Section: utils
+Filename: pool/main/p/postgresql-11-decoderbufs/postgresql-11-decoderbufs_0.9.3_amd64.deb
+Size: 39024
+SHA256: 86c8e807545377a0d6fe3945820403be2cd525eb6ebf9a9d1ca4ac6d9317ed0a
+SHA1: 59625f2f6884056561555f1b646bfc58455b150a
+MD5sum: 3197ca95f94e42488d0dceed7a60b4d3
+Description: a postgres output plugin
+ A PostgreSQL logical decoder output plugin to deliver data as Protocol Buffers, adapted for Debezium
+
