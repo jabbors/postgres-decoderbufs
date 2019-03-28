@@ -1,0 +1,8 @@
+FROM ubuntu:18.04
+
+RUN apt-get update && apt-get install -y reprepro
+
+COPY ./A037B18F.asc A037B18F.asc
+COPY ./A037B18F.asc.pub A037B18F.asc.pub
+COPY ./passfile.dat passfile.dat
+RUN gpg --import A037B18F.asc.pub && gpg --batch --yes --passphrase-file passfile.dat --allow-secret-key-import --import A037B18F.asc

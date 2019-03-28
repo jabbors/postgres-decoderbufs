@@ -30,6 +30,20 @@ sudo apt-get update
 sudo apt-get install postgresql-11-decoderbufs
 ```
 
+## add package
+
+### build the reprepro docker image
+
+```
+docker build -t reprepro -F Dockerfile.reprepro .
+```
+
+### sign and include the package
+
+```
+docker run -it --rm -v ${PWD}:/mnt/host reprepro
+reprepro --basedir /mnt/repo includedeb binoic /mnt/ubuntu18-pg10/postgresql-10-decoderbufs_0.9.3_amd64.deb
+```
 
 ## credits
 
