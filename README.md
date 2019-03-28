@@ -33,4 +33,4 @@ sudo apt-get install postgresql-11-decoderbufs
 
 ## credits
 
-Setting up this repository was inpired by this post [https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html]
+Setting up this repository was inpired by this post [https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html](https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html).
