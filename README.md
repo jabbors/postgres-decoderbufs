@@ -1,13 +1,13 @@
 # postgres-decoderbufs
 
-A deb repository for Debezium postgres-decoderbufs packages.
+A deb repository for Debezium [postgres-decoderbufs](https://github.com/debezium/postgres-decoderbufs) packages.
 
 ## available packages
 
 Currently only packages for Ubuntu 18.04 amd64 exists. Maybe later I'll add packages for older distributions as well.
 
-- postgresql-11-decoderbufs
-- postgresql-10-decoderbufs
+- postgresql-11-decoderbufs (v0.9.3)
+- postgresql-10-decoderbufs (v0.9.3)
 
 ## usages
 
@@ -33,4 +33,4 @@ sudo apt-get install postgresql-11-decoderbufs
 
 ## credits
 
-Setting up this repository was inpired by this post https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html
+Setting up this repository was inpired by this post [https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html]
